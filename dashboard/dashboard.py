@@ -6,8 +6,8 @@ import matplotlib.ticker as ticker
 import numpy as np
 
 # Load the data
-bycategory_combined_df = pd.read_csv('./bycategory_combined_data.csv')
-byproduct_combined_df = pd.read_csv('./byproduct_combined_data.csv')
+bycategory_combined_df = pd.read_csv('bycategory_combined_data.csv')
+byproduct_combined_df = pd.read_csv('byproduct_combined_data.csv')
 
 # Set up the Streamlit page configuration
 st.set_page_config(page_title="Product Sales and Reviews Dashboard", layout="wide")
